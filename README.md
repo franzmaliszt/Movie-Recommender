@@ -1,4 +1,3 @@
-# movierecommender
 # Movie Recommender Using Collaborative Filtering
 
 ## 1.	Purpose Of The Project
