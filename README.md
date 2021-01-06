@@ -23,5 +23,3 @@ To make this more accurate, pearson correlation takes neighbor profile into cons
 ###	Item-Based CF
 In Item-based CF, similar approach is utilized. This time not user but items are used to create a model. To predict how much a user would give to movie, we find similar movies to the test movie. Every movie the test user has rated in trainset are selected and their similarity to the test movie is calculated.
 Cosine similarity is utilized for this task. However, cosine similarity acts if movies yet not seen are voted 0. K nearest movies which the user already rated are used as neighbors. Their ratings are again adjusted by their similarities. Finally a prediction is made.
-## 4.	Evaluation
-The accuracy of predictions are evaluated using Mean Absolute Error.
